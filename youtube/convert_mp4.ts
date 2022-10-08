@@ -100,7 +100,7 @@ async function download(url:string) {
         clearInterval(progressbarHandle);
         const endTime = performance.now();
         console.log(
-            `${chalk.blue(`[i] Download finished in `)}${chalk.yellow(`${((endTime - tracker.start) / 1000).toFixed(3)} seconds`)}\n` +
+            `${chalk.blue(`[i] Download finished in `)}${chalk.yellow(`${((endTime - tracker.start) / 1000).toFixed(3)} seconds`)}          \n` +
             `${chalk.blue(`[i] File saved as `)}${chalk.yellow(filename)}`
         );
     })

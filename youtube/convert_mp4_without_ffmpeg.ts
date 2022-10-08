@@ -22,7 +22,6 @@ async function download(url:string, file_type:'flv'|'3gp'|'mp4'|'webm'= 'mp4') {
         `${chalk.blue("[i] Uploader       :")} ${chalk.yellow(info.videoDetails.author.name)}\n` +
         `${chalk.blue("[i] Length         :")} ${chalk.yellow(formatSeconds(info.videoDetails.lengthSeconds))}\n` +
         `${chalk.blue("[i] File Type      :")} ${chalk.yellow(format.container)}\n` +
-        `${chalk.blue("[i] File Size      :")} ${chalk.yellow()}\n` +
         `${chalk.blue("[i] Quality        :")} ${chalk.yellow(format.qualityLabel)}`
     )
 
