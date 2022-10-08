@@ -1,1 +1,0 @@
-import ps from 'prompt-sync';
